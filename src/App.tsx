@@ -274,7 +274,7 @@ export default function App() {
     if (!document.querySelector(`script[data-zone="${MONETAG_ZONE_ID}"]`)) {
       const script = document.createElement('script');
       script.src = 'https://a.realsrv.com/vignette.min.js';
-      script.dataset.zone = MONETAG_ZONE_ID;
+      script.dataset.zone = MONETAG_ZONE_ID;10933544
       script.dataset.sdk = `show_${MONETAG_ZONE_ID}`;
       script.async = true;
       document.head.appendChild(script);
