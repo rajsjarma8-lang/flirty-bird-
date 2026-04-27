@@ -1,0 +1,6 @@
+{
+  "name": "Birdy Bird Clone",
+  "description": "A fully playable Flappy Bird style game optimized for mobile screens.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
