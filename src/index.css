@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-shake: shake 0.4s cubic-bezier(.36,.07,.19,.97) both;
+  --keyframes-shake: {
+    10%, 90% { transform: translate3d(-2px, 0, 0); }
+    20%, 80% { transform: translate3d(3px, 0, 0); }
+    30%, 50%, 70% { transform: translate3d(-6px, 0, 0); }
+    40%, 60% { transform: translate3d(6px, 0, 0); }
+  }
+}
+
+html, body {
+  overscroll-behavior-y: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  touch-action: none;
+  overflow: hidden;
+}
